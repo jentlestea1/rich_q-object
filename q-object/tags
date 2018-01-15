@@ -1,0 +1,546 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABS	./gmacros.h	140;"	d
+ABS	./gmacros.h	141;"	d
+CLAMP	./gmacros.h	143;"	d
+CLAMP	./gmacros.h	144;"	d
+DEFINE_TYPES	./object.h	777;"	d
+DERIVED1	./derived1.h	48;"	d
+DERIVED1_CLASS	./derived1.h	46;"	d
+DERIVED1_GET_CLASS	./derived1.h	44;"	d
+DERIVED1_H	./derived1.h	2;"	d
+DERIVED1_VIEW	./derived1.c	4;"	d	file:
+DERIVED2	./derived2.h	45;"	d
+DERIVED2_CLASS	./derived2.h	43;"	d
+DERIVED2_GET_CLASS	./derived2.h	41;"	d
+DERIVED2_H	./derived2.h	2;"	d
+Derived1	./derived1.h	/^typedef struct Derived1 {$/;"	s
+Derived1	./derived1.h	/^}Derived1;$/;"	t	typeref:struct:Derived1
+Derived1Class	./derived1.h	/^typedef struct Derived1Class {$/;"	s
+Derived1Class	./derived1.h	/^} Derived1Class;$/;"	t	typeref:struct:Derived1Class
+Derived2	./derived2.h	/^typedef struct Derived2 {$/;"	s
+Derived2	./derived2.h	/^}Derived2;$/;"	t	typeref:struct:Derived2
+Derived2Class	./derived2.h	/^typedef struct Derived2Class {$/;"	s
+Derived2Class	./derived2.h	/^} Derived2Class;$/;"	t	typeref:struct:Derived2Class
+ERROR_CLASS_COMMAND_NOT_FOUND	./error.h	/^    ERROR_CLASS_COMMAND_NOT_FOUND,$/;"	e	enum:ErrorClass
+ERROR_CLASS_DEVICE_NOT_ACTIVE	./error.h	/^    ERROR_CLASS_DEVICE_NOT_ACTIVE,$/;"	e	enum:ErrorClass
+ERROR_CLASS_DEVICE_NOT_FOUND	./error.h	/^    ERROR_CLASS_DEVICE_NOT_FOUND,$/;"	e	enum:ErrorClass
+ERROR_CLASS_GENERIC_ERROR	./error.h	/^    ERROR_CLASS_GENERIC_ERROR,$/;"	e	enum:ErrorClass
+ERROR_CLASS_KVM_MISSING_CAP	./error.h	/^    ERROR_CLASS_KVM_MISSING_CAP,$/;"	e	enum:ErrorClass
+ERROR_H	./error.h	116;"	d
+Error	./error.h	/^typedef struct _Error Error;$/;"	t	typeref:struct:_Error
+ErrorClass	./error.h	/^typedef enum ErrorClass {$/;"	g
+ErrorClass	./error.h	/^} ErrorClass;$/;"	t	typeref:enum:ErrorClass
+FALSE	./gmacros.h	127;"	d
+GCompareDataFunc	./gtypes.h	/^typedef gint            (*GCompareDataFunc)     (gconstpointer  a,$/;"	t
+GCompareFunc	./gtypes.h	/^typedef gint            (*GCompareFunc)         (gconstpointer  a,$/;"	t
+GDestroyNotify	./gtypes.h	/^typedef void            (*GDestroyNotify)       (gpointer       data);$/;"	t
+GEqualFunc	./gtypes.h	/^typedef gboolean        (*GEqualFunc)           (gconstpointer  a,$/;"	t
+GFreeFunc	./gtypes.h	/^typedef void            (*GFreeFunc)            (gpointer       data);$/;"	t
+GFunc	./gtypes.h	/^typedef void            (*GFunc)                (gpointer       data,$/;"	t
+GHFunc	./gtypes.h	/^typedef void            (*GHFunc)               (gpointer       key,$/;"	t
+GHRFunc	./ghash.h	/^typedef gboolean  (*GHRFunc)  (gpointer  key,$/;"	t
+GHRFunc	./old_hash.h	/^typedef gboolean  (*GHRFunc)  (gpointer  key,$/;"	t
+GHashFunc	./gtypes.h	/^typedef guint           (*GHashFunc)            (gconstpointer  key);$/;"	t
+GHashNode	./old_hash.c	/^typedef struct _GHashNode      GHashNode;$/;"	t	typeref:struct:_GHashNode	file:
+GHashTable	./ghash.h	/^typedef struct _GHashTable  GHashTable;$/;"	t	typeref:struct:_GHashTable
+GHashTable	./old_hash.h	/^typedef struct _GHashTable  GHashTable;$/;"	t	typeref:struct:_GHashTable
+GHashTableIter	./ghash.h	/^typedef struct _GHashTableIter GHashTableIter;$/;"	t	typeref:struct:_GHashTableIter
+GINT_TO_POINTER	./gtypes.h	52;"	d
+GLIB_VAR	./gtypes.h	93;"	d
+GPOINTER_TO_INT	./gtypes.h	49;"	d
+GPOINTER_TO_SIZE	./gmacros.h	154;"	d
+GPOINTER_TO_UINT	./gtypes.h	50;"	d
+GSIZE_TO_POINTER	./gmacros.h	155;"	d
+GSList	./gslist.h	/^typedef struct _GSList		GSList;$/;"	t	typeref:struct:_GSList
+GUINT_TO_POINTER	./gtypes.h	53;"	d
+G_BEGIN_DECLS	./gmacros.h	106;"	d
+G_BEGIN_DECLS	./gmacros.h	109;"	d
+G_CONST_RETURN	./gmacros.h	196;"	d
+G_CONST_RETURN	./gmacros.h	198;"	d
+G_END_DECLS	./gmacros.h	107;"	d
+G_END_DECLS	./gmacros.h	110;"	d
+G_GINT64_MODIFIER	./gtestutil.h	27;"	d
+G_GNUC_CONST	./gmacros.h	67;"	d
+G_GNUC_CONST	./gmacros.h	78;"	d
+G_GNUC_EXTENSION	./gmacros.h	44;"	d
+G_GNUC_EXTENSION	./gmacros.h	46;"	d
+G_GNUC_FORMAT	./gmacros.h	63;"	d
+G_GNUC_FORMAT	./gmacros.h	76;"	d
+G_GNUC_FUNCTION	./gmacros.h	87;"	d
+G_GNUC_FUNCTION	./gmacros.h	90;"	d
+G_GNUC_NORETURN	./gmacros.h	65;"	d
+G_GNUC_NORETURN	./gmacros.h	77;"	d
+G_GNUC_NO_INSTRUMENT	./gmacros.h	71;"	d
+G_GNUC_NO_INSTRUMENT	./gmacros.h	80;"	d
+G_GNUC_PRETTY_FUNCTION	./gmacros.h	88;"	d
+G_GNUC_PRETTY_FUNCTION	./gmacros.h	91;"	d
+G_GNUC_PRINTF	./gmacros.h	59;"	d
+G_GNUC_PRINTF	./gmacros.h	74;"	d
+G_GNUC_PURE	./gmacros.h	52;"	d
+G_GNUC_PURE	./gmacros.h	55;"	d
+G_GNUC_SCANF	./gmacros.h	61;"	d
+G_GNUC_SCANF	./gmacros.h	75;"	d
+G_GNUC_UNUSED	./gmacros.h	69;"	d
+G_GNUC_UNUSED	./gmacros.h	79;"	d
+G_HASH_TABLE_RESIZE	./old_hash.c	62;"	d	file:
+G_N_ELEMENTS	./gmacros.h	150;"	d
+G_STMT_END	./gmacros.h	179;"	d
+G_STMT_END	./gmacros.h	183;"	d
+G_STMT_END	./gmacros.h	186;"	d
+G_STMT_START	./gmacros.h	178;"	d
+G_STMT_START	./gmacros.h	182;"	d
+G_STMT_START	./gmacros.h	185;"	d
+G_STRFUNC	./gtestutil.h	26;"	d
+G_STRINGIFY	./gmacros.h	94;"	d
+G_STRINGIFY_ARG	./gmacros.h	95;"	d
+G_STRLOC	./gmacros.h	101;"	d
+G_STRLOC	./gmacros.h	99;"	d
+G_STRUCT_MEMBER	./gmacros.h	164;"	d
+G_STRUCT_MEMBER_P	./gmacros.h	162;"	d
+G_STRUCT_OFFSET	./gmacros.h	160;"	d
+G_VA_COPY	./gstrfuncs.h	44;"	d
+HASH_IS_REAL	./ghash.c	210;"	d	file:
+HASH_IS_TOMBSTONE	./ghash.c	209;"	d	file:
+HASH_IS_UNUSED	./ghash.c	208;"	d	file:
+HASH_TABLE_MAX_SIZE	./old_hash.c	39;"	d	file:
+HASH_TABLE_MIN_SHIFT	./ghash.c	204;"	d	file:
+HASH_TABLE_MIN_SIZE	./old_hash.c	38;"	d	file:
+INTERFACE_CHECK	./object.h	537;"	d
+INTERFACE_CLASS	./object.h	526;"	d
+INVISIABLE_MEMBER	./child_view_access_control.h	7;"	d
+INVISIABLE_MEMBER	./other_view_access_control.h	7;"	d
+InterfaceClass	./object.h	/^struct InterfaceClass$/;"	s
+InterfaceClass	./object.h	/^typedef struct InterfaceClass InterfaceClass;$/;"	t	typeref:struct:InterfaceClass
+InterfaceImpl	./object.c	/^struct InterfaceImpl$/;"	s	file:
+InterfaceImpl	./object.c	/^typedef struct InterfaceImpl InterfaceImpl;$/;"	t	typeref:struct:InterfaceImpl	file:
+InterfaceInfo	./object.h	/^struct InterfaceInfo {$/;"	s
+InterfaceInfo	./object.h	/^typedef struct InterfaceInfo InterfaceInfo;$/;"	t	typeref:struct:InterfaceInfo
+MAX	./gmacros.h	134;"	d
+MAX	./gmacros.h	135;"	d
+MAX_BUFSIZ	./gstrfuncs.c	74;"	d	file:
+MAX_INTERFACES	./object.c	18;"	d	file:
+MIN	./gmacros.h	137;"	d
+MIN	./gmacros.h	138;"	d
+MY	./mydevice.h	47;"	d
+MY_CHILD_VIEW	./derived1.h	5;"	d
+MY_CHILD_VIEW	./derived2.h	4;"	d
+MY_CLASS	./mydevice.h	45;"	d
+MY_GET_CLASS	./mydevice.h	43;"	d
+MY_H	./mydevice.h	2;"	d
+MY_VIEW	./mydevice.c	3;"	d	file:
+My	./mydevice.h	/^typedef struct My {$/;"	s
+My	./mydevice.h	/^}My;$/;"	t	typeref:struct:My
+MyClass	./mydevice.h	/^typedef struct MyClass {$/;"	s
+MyClass	./mydevice.h	/^} MyClass;$/;"	t	typeref:struct:MyClass
+MyDoSomething	./derived1.h	/^typedef void (*MyDoSomething)(void);$/;"	t
+MyDoSomething	./derived2.h	/^typedef void (*MyDoSomething)(void);$/;"	t
+MyDoSomething	./mydevice.h	/^typedef void (*MyDoSomething)(void);$/;"	t
+NULL	./gmacros.h	120;"	d
+NULL	./gmacros.h	122;"	d
+OBJECT	./object.h	437;"	d
+OBJECT_CHECK	./object.h	463;"	d
+OBJECT_CLASS	./object.h	447;"	d
+OBJECT_CLASS_CAST_CACHE	./object.h	325;"	d
+OBJECT_CLASS_CHECK	./object.h	477;"	d
+OBJECT_GET_CLASS	./object.h	491;"	d
+OBJECT_H	./object.h	15;"	d
+OCFData	./object.c	/^typedef struct OCFData$/;"	s	file:
+OCFData	./object.c	/^} OCFData;$/;"	t	typeref:struct:OCFData	file:
+Object	./object.h	/^struct Object$/;"	s
+Object	./object.h	/^typedef struct Object Object;$/;"	t	typeref:struct:Object
+ObjectClass	./object.h	/^struct ObjectClass$/;"	s
+ObjectClass	./object.h	/^typedef struct ObjectClass ObjectClass;$/;"	t	typeref:struct:ObjectClass
+ObjectFree	./object.h	/^typedef void (ObjectFree)(void *obj);$/;"	t
+ObjectUnparent	./object.h	/^typedef void (ObjectUnparent)(Object *obj);$/;"	t
+Private	./child_view_access_control.h	10;"	d
+Private	./derived1.h	18;"	d
+Private	./derived2.h	15;"	d
+Private	./other_view_access_control.h	10;"	d
+Private	./self_view_access_control.h	8;"	d
+Protected	./child_view_access_control.h	11;"	d
+Protected	./derived1.h	19;"	d
+Protected	./derived2.h	16;"	d
+Protected	./other_view_access_control.h	11;"	d
+Protected	./self_view_access_control.h	9;"	d
+RealIter	./ghash.c	/^} RealIter;$/;"	t	typeref:struct:__anon1	file:
+TOMBSTONE_HASH_VALUE	./ghash.c	207;"	d	file:
+TRUE	./gmacros.h	131;"	d
+TYPE_DERIVED1	./derived1.h	8;"	d
+TYPE_DERIVED2	./derived2.h	7;"	d
+TYPE_INIT_H	./type_init.h	2;"	d
+TYPE_INTERFACE	./object.h	519;"	d
+TYPE_MY	./mydevice.h	6;"	d
+TYPE_OBJECT	./object.h	33;"	d
+TYPE_WRITABLE	./mydevice.h	52;"	d
+Type	./object.h	/^typedef struct TypeImpl *Type;$/;"	t	typeref:struct:TypeImpl
+TypeImpl	./object.c	/^struct TypeImpl$/;"	s	file:
+TypeImpl	./object.c	/^typedef struct TypeImpl TypeImpl;$/;"	t	typeref:struct:TypeImpl	file:
+TypeInfo	./object.h	/^struct TypeInfo$/;"	s
+TypeInfo	./object.h	/^typedef struct TypeInfo TypeInfo;$/;"	t	typeref:struct:TypeInfo
+UNUSED_HASH_VALUE	./ghash.c	206;"	d	file:
+VISIABLE_MEMBER	./child_view_access_control.h	6;"	d
+VISIABLE_MEMBER	./self_view_access_control.h	6;"	d
+WRITABLE_CLASS	./mydevice.h	59;"	d
+WRITABLE_GET_CLASS	./mydevice.h	62;"	d
+WritableClass	./mydevice.h	/^typedef struct WritableClass {$/;"	s
+WritableClass	./mydevice.h	/^} WritableClass;$/;"	t	typeref:struct:WritableClass
+_Error	./error.h	/^struct _Error$/;"	s
+_GHashNode	./old_hash.c	/^struct _GHashNode$/;"	s	file:
+_GHashTable	./ghash.c	/^struct _GHashTable$/;"	s	file:
+_GHashTable	./old_hash.c	/^struct _GHashTable$/;"	s	file:
+_GHashTableIter	./ghash.h	/^struct _GHashTableIter$/;"	s
+_GSList	./gslist.h	/^struct _GSList$/;"	s
+__G_HASH_H__	./ghash.h	26;"	d
+__G_HASH_H__	./old_hash.h	28;"	d
+__G_LIB_H__	./glib.h	28;"	d
+__G_MACROS_H__	./gmacros.h	32;"	d
+__G_MEM_H__	./gmem.h	28;"	d
+__G_PRIMES_H__	./gprimes.h	28;"	d
+__G_SLIST_H__	./gslist.h	28;"	d
+__G_STRFUNCS_H__	./gstrfuncs.h	26;"	d
+__G_STRING_H__	./gstring.h	2;"	d
+__G_TEST_UTILS_H__	./gtestutil.h	20;"	d
+__G_TYPES_H__	./gtypes.h	28;"	d
+_g_slist_alloc	./gslist.c	35;"	d	file:
+_g_slist_free_1	./gslist.c	59;"	d	file:
+_g_slist_remove_link	./gslist.c	/^_g_slist_remove_link (GSList *list,$/;"	f	file:
+abstract	./object.c	/^    bool abstract;$/;"	m	struct:TypeImpl	file:
+abstract	./object.h	/^    bool abstract;$/;"	m	struct:TypeInfo
+class	./object.c	/^    ObjectClass *class;$/;"	m	struct:TypeImpl	file:
+class_base_init	./object.c	/^    void (*class_base_init)(ObjectClass *klass, void *data);$/;"	m	struct:TypeImpl	file:
+class_base_init	./object.h	/^    void (*class_base_init)(ObjectClass *klass, void *data);$/;"	m	struct:TypeInfo
+class_cast_cache	./object.h	/^    const char *class_cast_cache[OBJECT_CLASS_CAST_CACHE];$/;"	m	struct:ObjectClass
+class_data	./object.c	/^    void *class_data;$/;"	m	struct:TypeImpl	file:
+class_data	./object.h	/^    void *class_data;$/;"	m	struct:TypeInfo
+class_finalize	./object.c	/^    void (*class_finalize)(ObjectClass *klass, void *data);$/;"	m	struct:TypeImpl	file:
+class_finalize	./object.h	/^    void (*class_finalize)(ObjectClass *klass, void *data);$/;"	m	struct:TypeInfo
+class_init	./object.c	/^    void (*class_init)(ObjectClass *klass, void *data);$/;"	m	struct:TypeImpl	file:
+class_init	./object.h	/^    void (*class_init)(ObjectClass *klass, void *data);$/;"	m	struct:TypeInfo
+class_size	./object.c	/^    size_t class_size;$/;"	m	struct:TypeImpl	file:
+class_size	./object.h	/^    size_t class_size;$/;"	m	struct:TypeInfo
+concrete_class	./object.h	/^    ObjectClass *concrete_class;$/;"	m	struct:InterfaceClass
+data	./gslist.h	/^  gpointer data;$/;"	m	struct:_GSList
+derived1_class_init	./derived1.c	/^static void derived1_class_init(ObjectClass *oc, void *data)$/;"	f	file:
+derived1_do_something	./derived1.c	/^static void derived1_do_something(void)$/;"	f	file:
+derived1_instance_init	./derived1.c	/^static void derived1_instance_init(Object* obj)$/;"	f	file:
+derived1_register	./derived1.c	/^static void derived1_register(void)$/;"	f	file:
+derived1_type_info	./derived1.c	/^static const TypeInfo derived1_type_info = {$/;"	v	file:
+derived2_class_init	./derived2.c	/^static void derived2_class_init(ObjectClass *oc, void *data)$/;"	f	file:
+derived2_do_something	./derived2.c	/^static void derived2_do_something(void)$/;"	f	file:
+derived2_instance_init	./derived2.c	/^static void derived2_instance_init(Object* obj)$/;"	f	file:
+derived2_register	./derived2.c	/^static void derived2_register(void)$/;"	f	file:
+derived2_type_info	./derived2.c	/^static const TypeInfo derived2_type_info = {$/;"	v	file:
+do_something	./mydevice.h	/^      MyDoSomething do_something;$/;"	m	struct:MyClass
+dummy1	./ghash.c	/^  gpointer     dummy1;$/;"	m	struct:__anon1	file:
+dummy1	./ghash.h	/^  gpointer      dummy1;$/;"	m	struct:_GHashTableIter
+dummy2	./ghash.c	/^  gpointer     dummy2;$/;"	m	struct:__anon1	file:
+dummy2	./ghash.h	/^  gpointer      dummy2;$/;"	m	struct:_GHashTableIter
+dummy3	./ghash.c	/^  gboolean     dummy3;$/;"	m	struct:__anon1	file:
+dummy3	./ghash.h	/^  gpointer      dummy3;$/;"	m	struct:_GHashTableIter
+dummy4	./ghash.h	/^  int           dummy4;$/;"	m	struct:_GHashTableIter
+dummy5	./ghash.h	/^  gboolean      dummy5;$/;"	m	struct:_GHashTableIter
+dummy6	./ghash.h	/^  gpointer      dummy6;$/;"	m	struct:_GHashTableIter
+enumerating_types	./object.c	/^static bool enumerating_types;$/;"	v	file:
+err_class	./error.h	/^    ErrorClass err_class;$/;"	m	struct:_Error
+errno	./main.c	/^int errno;$/;"	v
+error_abort	./main.c	/^Error *error_abort;$/;"	v
+error_fatal	./main.c	/^Error *error_fatal;$/;"	v
+error_free	./error.c	/^void error_free(Error *err)$/;"	f
+error_handle_fatal	./error.c	/^static void error_handle_fatal(Error **errp, Error *err)$/;"	f	file:
+error_propagate	./error.c	/^void error_propagate(Error **dst_errp, Error *local_err)$/;"	f
+error_report_err	./error.c	/^void error_report_err(Error *err)$/;"	f
+error_set	./error.h	196;"	d
+error_set_internal	./error.c	/^void error_set_internal(Error **errp,$/;"	f
+error_setg	./error.h	157;"	d
+error_setg_errno_internal	./error.c	/^void error_setg_errno_internal(Error **errp,$/;"	f
+error_setg_internal	./error.c	/^void error_setg_internal(Error **errp,$/;"	f
+error_setv	./error.c	/^static void error_setv(Error **errp,$/;"	f	file:
+fn	./object.c	/^    void (*fn)(ObjectClass *klass, void *opaque);$/;"	m	struct:OCFData	file:
+free	./object.h	/^    ObjectFree *free;$/;"	m	struct:Object
+func	./error.h	/^    const char *src, *func;$/;"	m	struct:_Error
+g_assert	./gtestutil.h	39;"	d
+g_assert_cmpint	./gtestutil.h	30;"	d
+g_assert_not_reached	./gtestutil.h	38;"	d
+g_assertion_message	./gtestutil.c	/^g_assertion_message (const char     *file,$/;"	f
+g_assertion_message_cmpnum	./gtestutil.c	/^g_assertion_message_cmpnum (const char     *file,$/;"	f
+g_assertion_message_expr	./gtestutil.c	/^g_assertion_message_expr (const char     *file,$/;"	f
+g_direct_equal	./ghash.c	/^g_direct_equal (gconstpointer v1,$/;"	f
+g_direct_equal	./old_hash.c	/^gboolean g_direct_equal (gconstpointer v1, gconstpointer v2)$/;"	f
+g_direct_hash	./ghash.c	/^g_direct_hash (gconstpointer v)$/;"	f
+g_direct_hash	./old_hash.c	/^guint g_direct_hash (gconstpointer v)$/;"	f
+g_double_equal	./ghash.c	/^g_double_equal (gconstpointer v1,$/;"	f
+g_double_hash	./ghash.c	/^g_double_hash (gconstpointer v)$/;"	f
+g_free	./gmem.c	/^g_free (gpointer mem)$/;"	f
+g_hash_node_destroy	./old_hash.c	/^g_hash_node_destroy (GHashNode      *hash_node,$/;"	f	file:
+g_hash_node_new	./old_hash.c	/^g_hash_node_new (gpointer key,$/;"	f	file:
+g_hash_nodes_destroy	./old_hash.c	/^g_hash_nodes_destroy (GHashNode *hash_node,$/;"	f	file:
+g_hash_table_add	./ghash.c	/^g_hash_table_add (GHashTable *hash_table,$/;"	f
+g_hash_table_contains	./ghash.c	/^g_hash_table_contains (GHashTable    *hash_table,$/;"	f
+g_hash_table_destroy	./ghash.c	/^g_hash_table_destroy (GHashTable *hash_table)$/;"	f
+g_hash_table_destroy	./old_hash.c	/^g_hash_table_destroy (GHashTable *hash_table)$/;"	f
+g_hash_table_find	./ghash.c	/^g_hash_table_find (GHashTable *hash_table,$/;"	f
+g_hash_table_find_closest_shift	./ghash.c	/^g_hash_table_find_closest_shift (gint n)$/;"	f	file:
+g_hash_table_foreach	./ghash.c	/^g_hash_table_foreach (GHashTable *hash_table,$/;"	f
+g_hash_table_foreach	./old_hash.c	/^g_hash_table_foreach (GHashTable *hash_table,$/;"	f
+g_hash_table_foreach_remove	./ghash.c	/^g_hash_table_foreach_remove (GHashTable *hash_table,$/;"	f
+g_hash_table_foreach_remove	./old_hash.c	/^g_hash_table_foreach_remove (GHashTable	*hash_table,$/;"	f
+g_hash_table_foreach_remove_or_steal	./ghash.c	/^g_hash_table_foreach_remove_or_steal (GHashTable *hash_table,$/;"	f	file:
+g_hash_table_foreach_remove_or_steal	./old_hash.c	/^g_hash_table_foreach_remove_or_steal (GHashTable *hash_table,$/;"	f	file:
+g_hash_table_foreach_steal	./ghash.c	/^g_hash_table_foreach_steal (GHashTable *hash_table,$/;"	f
+g_hash_table_foreach_steal	./old_hash.c	/^g_hash_table_foreach_steal (GHashTable *hash_table,$/;"	f
+g_hash_table_freeze	./old_hash.h	92;"	d
+g_hash_table_get_keys_as_array	./ghash.c	/^g_hash_table_get_keys_as_array (GHashTable *hash_table,$/;"	f
+g_hash_table_insert	./ghash.c	/^g_hash_table_insert (GHashTable *hash_table,$/;"	f
+g_hash_table_insert	./old_hash.c	/^g_hash_table_insert (GHashTable *hash_table,$/;"	f
+g_hash_table_insert_internal	./ghash.c	/^g_hash_table_insert_internal (GHashTable *hash_table,$/;"	f	file:
+g_hash_table_insert_node	./ghash.c	/^g_hash_table_insert_node (GHashTable *hash_table,$/;"	f	file:
+g_hash_table_iter_get_hash_table	./ghash.c	/^g_hash_table_iter_get_hash_table (GHashTableIter *iter)$/;"	f
+g_hash_table_iter_init	./ghash.c	/^g_hash_table_iter_init (GHashTableIter *iter,$/;"	f
+g_hash_table_iter_next	./ghash.c	/^g_hash_table_iter_next (GHashTableIter *iter,$/;"	f
+g_hash_table_iter_remove	./ghash.c	/^g_hash_table_iter_remove (GHashTableIter *iter)$/;"	f
+g_hash_table_iter_replace	./ghash.c	/^g_hash_table_iter_replace (GHashTableIter *iter,$/;"	f
+g_hash_table_iter_steal	./ghash.c	/^g_hash_table_iter_steal (GHashTableIter *iter)$/;"	f
+g_hash_table_lookup	./ghash.c	/^g_hash_table_lookup (GHashTable    *hash_table,$/;"	f
+g_hash_table_lookup	./old_hash.c	/^g_hash_table_lookup (GHashTable	  *hash_table, gconstpointer key)$/;"	f
+g_hash_table_lookup_extended	./ghash.c	/^g_hash_table_lookup_extended (GHashTable    *hash_table,$/;"	f
+g_hash_table_lookup_extended	./old_hash.c	/^g_hash_table_lookup_extended (GHashTable    *hash_table,$/;"	f
+g_hash_table_lookup_node	./ghash.c	/^g_hash_table_lookup_node (GHashTable    *hash_table,$/;"	f	file:
+g_hash_table_lookup_node	./old_hash.c	/^g_hash_table_lookup_node (GHashTable	*hash_table,$/;"	f	file:
+g_hash_table_maybe_resize	./ghash.c	/^g_hash_table_maybe_resize (GHashTable *hash_table)$/;"	f	file:
+g_hash_table_new	./ghash.c	/^g_hash_table_new (GHashFunc  hash_func,$/;"	f
+g_hash_table_new	./old_hash.c	/^g_hash_table_new (GHashFunc    hash_func,$/;"	f
+g_hash_table_new_full	./ghash.c	/^g_hash_table_new_full (GHashFunc      hash_func,$/;"	f
+g_hash_table_new_full	./old_hash.c	/^g_hash_table_new_full (GHashFunc       hash_func,$/;"	f
+g_hash_table_ref	./ghash.c	/^g_hash_table_ref (GHashTable *hash_table)$/;"	f
+g_hash_table_remove	./ghash.c	/^g_hash_table_remove (GHashTable    *hash_table,$/;"	f
+g_hash_table_remove	./old_hash.c	/^g_hash_table_remove (GHashTable	   *hash_table,$/;"	f
+g_hash_table_remove_all	./ghash.c	/^g_hash_table_remove_all (GHashTable *hash_table)$/;"	f
+g_hash_table_remove_all_nodes	./ghash.c	/^g_hash_table_remove_all_nodes (GHashTable *hash_table,$/;"	f	file:
+g_hash_table_remove_internal	./ghash.c	/^g_hash_table_remove_internal (GHashTable    *hash_table,$/;"	f	file:
+g_hash_table_remove_node	./ghash.c	/^g_hash_table_remove_node (GHashTable   *hash_table,$/;"	f	file:
+g_hash_table_replace	./ghash.c	/^g_hash_table_replace (GHashTable *hash_table,$/;"	f
+g_hash_table_replace	./old_hash.c	/^g_hash_table_replace (GHashTable *hash_table,$/;"	f
+g_hash_table_resize	./ghash.c	/^g_hash_table_resize (GHashTable *hash_table)$/;"	f	file:
+g_hash_table_resize	./old_hash.c	/^g_hash_table_resize (GHashTable *hash_table)$/;"	f	file:
+g_hash_table_set_shift	./ghash.c	/^g_hash_table_set_shift (GHashTable *hash_table, gint shift)$/;"	f	file:
+g_hash_table_set_shift_from_size	./ghash.c	/^g_hash_table_set_shift_from_size (GHashTable *hash_table, gint size)$/;"	f	file:
+g_hash_table_size	./ghash.c	/^g_hash_table_size (GHashTable *hash_table)$/;"	f
+g_hash_table_size	./old_hash.c	/^g_hash_table_size (GHashTable *hash_table)$/;"	f
+g_hash_table_steal	./ghash.c	/^g_hash_table_steal (GHashTable    *hash_table,$/;"	f
+g_hash_table_steal	./old_hash.c	/^g_hash_table_steal (GHashTable    *hash_table,$/;"	f
+g_hash_table_steal_all	./ghash.c	/^g_hash_table_steal_all (GHashTable *hash_table)$/;"	f
+g_hash_table_thaw	./old_hash.h	93;"	d
+g_hash_table_unref	./ghash.c	/^g_hash_table_unref (GHashTable *hash_table)$/;"	f
+g_int64_equal	./ghash.c	/^g_int64_equal (gconstpointer v1,$/;"	f
+g_int64_hash	./ghash.c	/^g_int64_hash (gconstpointer v)$/;"	f
+g_int_equal	./ghash.c	/^g_int_equal (gconstpointer v1,$/;"	f
+g_int_hash	./ghash.c	/^g_int_hash (gconstpointer v)$/;"	f
+g_malloc	./gmem.c	/^g_malloc (gulong n_bytes)$/;"	f
+g_malloc0	./gmem.c	/^g_malloc0 (gulong n_bytes)$/;"	f
+g_memdup	./gstrfuncs.c	/^g_memdup (gconstpointer mem,$/;"	f
+g_new	./gmem.h	46;"	d
+g_new0	./gmem.h	48;"	d
+g_nprimes	./gprimes.c	/^static const guint g_nprimes = sizeof (g_primes) \/ sizeof (g_primes[0]);$/;"	v	file:
+g_primes	./gprimes.c	/^static const guint g_primes[] =$/;"	v	file:
+g_realloc	./gmem.c	/^g_realloc (gpointer mem,$/;"	f
+g_renew	./gmem.h	50;"	d
+g_slist_alloc	./gslist.c	/^g_slist_alloc (void)$/;"	f
+g_slist_append	./gslist.c	/^g_slist_append (GSList   *list,$/;"	f
+g_slist_concat	./gslist.c	/^g_slist_concat (GSList *list1, GSList *list2)$/;"	f
+g_slist_copy	./gslist.c	/^g_slist_copy (GSList *list)$/;"	f
+g_slist_delete_link	./gslist.c	/^g_slist_delete_link (GSList *list,$/;"	f
+g_slist_find	./gslist.c	/^g_slist_find (GSList        *list,$/;"	f
+g_slist_find_custom	./gslist.c	/^g_slist_find_custom (GSList        *list,$/;"	f
+g_slist_foreach	./gslist.c	/^g_slist_foreach (GSList   *list,$/;"	f
+g_slist_free	./gslist.c	/^g_slist_free (GSList *list)$/;"	f
+g_slist_free_1	./gslist.c	/^g_slist_free_1 (GSList *list)$/;"	f
+g_slist_index	./gslist.c	/^g_slist_index (GSList        *list,$/;"	f
+g_slist_insert	./gslist.c	/^g_slist_insert (GSList   *list,$/;"	f
+g_slist_insert_before	./gslist.c	/^g_slist_insert_before (GSList  *slist,$/;"	f
+g_slist_insert_sorted	./gslist.c	/^g_slist_insert_sorted (GSList       *list,$/;"	f
+g_slist_last	./gslist.c	/^g_slist_last (GSList *list)$/;"	f
+g_slist_length	./gslist.c	/^g_slist_length (GSList *list)$/;"	f
+g_slist_next	./gslist.h	120;"	d
+g_slist_nth	./gslist.c	/^g_slist_nth (GSList *list,$/;"	f
+g_slist_nth_data	./gslist.c	/^g_slist_nth_data (GSList   *list,$/;"	f
+g_slist_position	./gslist.c	/^g_slist_position (GSList *list,$/;"	f
+g_slist_prepend	./gslist.c	/^g_slist_prepend (GSList   *list,$/;"	f
+g_slist_remove	./gslist.c	/^g_slist_remove (GSList        *list,$/;"	f
+g_slist_remove_all	./gslist.c	/^g_slist_remove_all (GSList        *list,$/;"	f
+g_slist_remove_link	./gslist.c	/^g_slist_remove_link (GSList *list,$/;"	f
+g_slist_reverse	./gslist.c	/^g_slist_reverse (GSList *list)$/;"	f
+g_slist_sort	./gslist.c	/^g_slist_sort (GSList       *list,$/;"	f
+g_slist_sort_merge	./gslist.c	/^g_slist_sort_merge (GSList   *l1, $/;"	f	file:
+g_slist_sort_real	./gslist.c	/^g_slist_sort_real (GSList   *list,$/;"	f	file:
+g_slist_sort_with_data	./gslist.c	/^g_slist_sort_with_data (GSList           *list,$/;"	f
+g_spaced_primes_closest	./gprimes.c	/^g_spaced_primes_closest (guint num)$/;"	f
+g_str_equal	./ghash.c	/^g_str_equal (gconstpointer v1,$/;"	f
+g_str_equal	./gstring.c	/^g_str_equal (gconstpointer v1, gconstpointer v2)$/;"	f
+g_str_hash	./ghash.c	/^g_str_hash (gconstpointer v)$/;"	f
+g_str_hash	./gstring.c	/^g_str_hash (gconstpointer key)$/;"	f
+g_strcmp0	./gtestutil.c	/^g_strcmp0 (const char     *str1,$/;"	f
+g_strdup	./gstrfuncs.c	/^g_strdup (const gchar *str)$/;"	f
+g_strdup_printf	./gstrfuncs.c	/^g_strdup_printf (const gchar *format,$/;"	f
+g_strdup_vprintf	./gstrfuncs.c	/^g_strdup_vprintf (const gchar *format,$/;"	f
+gboolean	./gtypes.h	/^typedef gint   gboolean;$/;"	t
+gchar	./gtypes.h	/^typedef char   gchar;$/;"	t
+gconstpointer	./gtypes.h	/^typedef const void *gconstpointer;$/;"	t
+gdouble	./gtypes.h	/^typedef double  gdouble;$/;"	t
+gfloat	./gtypes.h	/^typedef float   gfloat;$/;"	t
+gint	./gtypes.h	/^typedef int    gint;$/;"	t
+gint32	./gtypes.h	/^typedef signed int gint32;$/;"	t
+gint64	./gtypes.h	/^typedef signed long long gint64;$/;"	t
+glong	./gtypes.h	/^typedef long   glong;$/;"	t
+gpointer	./gtypes.h	/^typedef void* gpointer;$/;"	t
+gshort	./gtypes.h	/^typedef short  gshort;$/;"	t
+gsize	./gtypes.h	/^typedef guint32 gsize;$/;"	t
+gssize	./gtypes.h	/^typedef gint32  gssize;$/;"	t
+guchar	./gtypes.h	/^typedef unsigned char   guchar;$/;"	t
+guint	./gtypes.h	/^typedef unsigned int    guint;$/;"	t
+guint32	./gtypes.h	/^typedef unsigned int guint32;$/;"	t
+guint64	./gtypes.h	/^typedef unsigned long long guint64;$/;"	t
+gulong	./gtypes.h	/^typedef unsigned long   gulong;$/;"	t
+gushort	./gtypes.h	/^typedef unsigned short  gushort;$/;"	t
+hash_func	./ghash.c	/^  GHashFunc        hash_func;$/;"	m	struct:_GHashTable	file:
+hash_func	./old_hash.c	/^  GHashFunc        hash_func;$/;"	m	struct:_GHashTable	file:
+hash_table	./ghash.c	/^  GHashTable  *hash_table;$/;"	m	struct:__anon1	file:
+hashes	./ghash.c	/^  guint           *hashes;$/;"	m	struct:_GHashTable	file:
+implements_type	./object.c	/^    const char *implements_type;$/;"	m	struct:OCFData	file:
+include_abstract	./object.c	/^    bool include_abstract;$/;"	m	struct:OCFData	file:
+instance_finalize	./object.c	/^    void (*instance_finalize)(Object *obj);$/;"	m	struct:TypeImpl	file:
+instance_finalize	./object.h	/^    void (*instance_finalize)(Object *obj);$/;"	m	struct:TypeInfo
+instance_init	./object.c	/^    void (*instance_init)(Object *obj);$/;"	m	struct:TypeImpl	file:
+instance_init	./object.h	/^    void (*instance_init)(Object *obj);$/;"	m	struct:TypeInfo
+instance_post_init	./object.c	/^    void (*instance_post_init)(Object *obj);$/;"	m	struct:TypeImpl	file:
+instance_post_init	./object.h	/^    void (*instance_post_init)(Object *obj);$/;"	m	struct:TypeInfo
+instance_size	./object.c	/^    size_t instance_size;$/;"	m	struct:TypeImpl	file:
+instance_size	./object.h	/^    size_t instance_size;$/;"	m	struct:TypeInfo
+interface_type	./object.h	/^    Type interface_type;$/;"	m	struct:InterfaceClass
+interfaces	./mydevice.c	/^static InterfaceInfo interfaces[] = {$/;"	v	file:
+interfaces	./object.c	/^    InterfaceImpl interfaces[MAX_INTERFACES];$/;"	m	struct:TypeImpl	file:
+interfaces	./object.h	/^    GSList *interfaces;$/;"	m	struct:ObjectClass
+interfaces	./object.h	/^    InterfaceInfo *interfaces;$/;"	m	struct:TypeInfo
+is_writable	./derived1.c	/^static bool is_writable()$/;"	f	file:
+is_writable	./mydevice.c	/^static bool is_writable()$/;"	f	file:
+is_writable	./mydevice.h	/^    bool (*is_writable)();$/;"	m	struct:WritableClass
+iter_remove_or_steal	./ghash.c	/^iter_remove_or_steal (RealIter *ri, gboolean notify)$/;"	f	file:
+j	./derived2.h	/^      int j;$/;"	m	struct:Derived2
+k	./mydevice.h	/^      int k;$/;"	m	struct:My
+key	./old_hash.c	/^  gpointer   key;$/;"	m	struct:_GHashNode	file:
+key_destroy_func	./ghash.c	/^  GDestroyNotify   key_destroy_func;$/;"	m	struct:_GHashTable	file:
+key_destroy_func	./old_hash.c	/^  GDestroyNotify   key_destroy_func;$/;"	m	struct:_GHashTable	file:
+key_equal_func	./ghash.c	/^  GEqualFunc       key_equal_func;$/;"	m	struct:_GHashTable	file:
+key_equal_func	./old_hash.c	/^  GEqualFunc       key_equal_func;$/;"	m	struct:_GHashTable	file:
+keys	./ghash.c	/^  gpointer        *keys;$/;"	m	struct:_GHashTable	file:
+line	./error.h	/^    int line;$/;"	m	struct:_Error
+main	./main.c	/^int main()$/;"	f
+mask	./ghash.c	/^  guint            mask;$/;"	m	struct:_GHashTable	file:
+mod	./ghash.c	/^  gint             mod;$/;"	m	struct:_GHashTable	file:
+msg	./error.h	/^    char *msg;$/;"	m	struct:_Error
+my_class_init	./mydevice.c	/^static void my_class_init(ObjectClass *oc, void *data)$/;"	f	file:
+my_do_something	./mydevice.c	/^static void my_do_something(void)$/;"	f	file:
+my_instance_init	./mydevice.c	/^static void my_instance_init(Object* obj)$/;"	f	file:
+my_register	./mydevice.c	/^static void my_register(void)$/;"	f	file:
+my_type_info	./mydevice.c	/^static const TypeInfo my_type_info = {$/;"	v	file:
+name	./object.c	/^    const char *name;$/;"	m	struct:TypeImpl	file:
+name	./object.h	/^    const char *name;$/;"	m	struct:TypeInfo
+next	./gslist.h	/^  GSList *next;$/;"	m	struct:_GSList
+next	./old_hash.c	/^  GHashNode *next;$/;"	m	struct:_GHashNode	file:
+nnodes	./ghash.c	/^  gint             nnodes;$/;"	m	struct:_GHashTable	file:
+nnodes	./old_hash.c	/^  gint             nnodes;$/;"	m	struct:_GHashTable	file:
+noccupied	./ghash.c	/^  gint             noccupied;  \/* nnodes + tombstones *\/$/;"	m	struct:_GHashTable	file:
+node_free_list	./old_hash.c	/^static GHashNode *node_free_list = NULL;$/;"	v	file:
+node_mem_chunk	./old_hash.c	/^static void *node_mem_chunk = NULL;$/;"	v	file:
+nodes	./old_hash.c	/^  GHashNode      **nodes;$/;"	m	struct:_GHashTable	file:
+num_interfaces	./object.c	/^    int num_interfaces;$/;"	m	struct:TypeImpl	file:
+object_cast_cache	./object.h	/^    const char *object_cast_cache[OBJECT_CLASS_CAST_CACHE];$/;"	m	struct:ObjectClass
+object_class_by_name	./object.c	/^ObjectClass *object_class_by_name(const char *typename)$/;"	f
+object_class_dynamic_cast	./object.c	/^ObjectClass *object_class_dynamic_cast(ObjectClass *class,$/;"	f
+object_class_dynamic_cast_assert	./object.c	/^ObjectClass *object_class_dynamic_cast_assert(ObjectClass *class,$/;"	f
+object_class_foreach	./object.c	/^void object_class_foreach(void (*fn)(ObjectClass *klass, void *opaque),$/;"	f
+object_class_foreach_tramp	./object.c	/^static void object_class_foreach_tramp(gpointer key, gpointer value,$/;"	f	file:
+object_class_get_list	./object.c	/^GSList *object_class_get_list(const char *implements_type,$/;"	f
+object_class_get_list_tramp	./object.c	/^static void object_class_get_list_tramp(ObjectClass *klass, void *opaque)$/;"	f	file:
+object_class_get_name	./object.c	/^const char *object_class_get_name(ObjectClass *klass)$/;"	f
+object_class_get_parent	./object.c	/^ObjectClass *object_class_get_parent(ObjectClass *class)$/;"	f
+object_class_is_abstract	./object.c	/^bool object_class_is_abstract(ObjectClass *klass)$/;"	f
+object_deinit	./object.c	/^static void object_deinit(Object *obj, TypeImpl *type)$/;"	f	file:
+object_dynamic_cast	./object.c	/^Object *object_dynamic_cast(Object *obj, const char *typename)$/;"	f
+object_dynamic_cast_assert	./object.c	/^Object *object_dynamic_cast_assert(Object *obj, const char *typename,$/;"	f
+object_finalize	./object.c	/^static void object_finalize(void *data)$/;"	f	file:
+object_get_class	./object.c	/^ObjectClass *object_get_class(Object *obj)$/;"	f
+object_get_typename	./object.c	/^const char *object_get_typename(const Object *obj)$/;"	f
+object_init_with_type	./object.c	/^static void object_init_with_type(Object *obj, TypeImpl *ti)$/;"	f	file:
+object_initialize	./object.c	/^void object_initialize(void *data, size_t size, const char *typename)$/;"	f
+object_initialize_with_type	./object.c	/^static void object_initialize_with_type(void *data, size_t size, TypeImpl *type)$/;"	f	file:
+object_instance_init	./object.c	/^static void object_instance_init(Object *obj)$/;"	f	file:
+object_new	./object.c	/^Object *object_new(const char *typename)$/;"	f
+object_new_with_props	./object.c	/^Object *object_new_with_props(const char *typename,$/;"	f
+object_new_with_propv	./object.c	/^Object *object_new_with_propv(const char *typename,$/;"	f
+object_new_with_type	./object.c	/^static Object *object_new_with_type(Type type)$/;"	f	file:
+object_post_init_with_type	./object.c	/^static void object_post_init_with_type(Object *obj, TypeImpl *ti)$/;"	f	file:
+object_ref	./object.c	/^void object_ref(Object *obj)$/;"	f
+object_type_get_instance_size	./object.c	/^size_t object_type_get_instance_size(const char *typename)$/;"	f
+object_unref	./object.c	/^void object_unref(Object *obj)$/;"	f
+opaque	./object.c	/^    void *opaque;$/;"	m	struct:OCFData	file:
+parent	./derived2.h	/^      My parent;$/;"	m	struct:Derived2
+parent	./object.c	/^    const char *parent;$/;"	m	struct:TypeImpl	file:
+parent	./object.h	/^    Object *parent;$/;"	m	struct:Object
+parent	./object.h	/^    const char *parent;$/;"	m	struct:TypeInfo
+parent_class	./derived1.h	/^      MyClass parent_class;$/;"	m	struct:Derived1Class
+parent_class	./derived2.h	/^      MyClass parent_class;$/;"	m	struct:Derived2Class
+parent_class	./mydevice.h	/^      ObjectClass parent_class;$/;"	m	struct:MyClass
+parent_class	./mydevice.h	/^    InterfaceClass parent_class;$/;"	m	struct:WritableClass
+parent_class	./object.h	/^    ObjectClass parent_class;$/;"	m	struct:InterfaceClass
+parent_do_something	./derived1.h	/^      MyDoSomething parent_do_something;$/;"	m	struct:Derived1Class
+parent_do_something	./derived2.h	/^      MyDoSomething parent_do_something;$/;"	m	struct:Derived2Class
+parent_type	./object.c	/^    TypeImpl *parent_type;$/;"	m	struct:TypeImpl	file:
+position	./ghash.c	/^  int          position;$/;"	m	struct:__anon1	file:
+prime_mod	./ghash.c	/^static const gint prime_mod [] =$/;"	v	file:
+properties	./object.h	/^    GHashTable *properties;$/;"	m	struct:Object
+properties	./object.h	/^    GHashTable *properties;$/;"	m	struct:ObjectClass
+ref	./object.h	/^    guint32 ref;$/;"	m	struct:Object
+ref_count	./ghash.c	/^  gint             ref_count;$/;"	m	struct:_GHashTable	file:
+register_types	./object.c	/^static void register_types(void)$/;"	f	file:
+size	./ghash.c	/^  gint             size;$/;"	m	struct:_GHashTable	file:
+size	./old_hash.c	/^  gint             size;$/;"	m	struct:_GHashTable	file:
+src	./error.h	/^    const char *src, *func;$/;"	m	struct:_Error
+type	./object.h	/^    Type type;$/;"	m	struct:ObjectClass
+type	./object.h	/^    const char *type;$/;"	m	struct:InterfaceInfo
+type_class_get_size	./object.c	/^static size_t type_class_get_size(TypeImpl *ti)$/;"	f	file:
+type_derived1_init	./derived1.c	/^void type_derived1_init(void)$/;"	f
+type_derived2_init	./derived2.c	/^void type_derived2_init(void)$/;"	f
+type_get_by_name	./object.c	/^static TypeImpl *type_get_by_name(const char *name)$/;"	f	file:
+type_get_parent	./object.c	/^static TypeImpl *type_get_parent(TypeImpl *type)$/;"	f	file:
+type_has_parent	./object.c	/^static bool type_has_parent(TypeImpl *type)$/;"	f	file:
+type_init	./type_init.c	/^void type_init(void (*type_register_func)(void))$/;"	f
+type_initialize	./object.c	/^static void type_initialize(TypeImpl *ti)$/;"	f	file:
+type_initialize_interface	./object.c	/^static void type_initialize_interface(TypeImpl *ti, TypeImpl *interface_type,$/;"	f	file:
+type_interface	./object.c	/^static Type type_interface;$/;"	v	file:
+type_is_ancestor	./object.c	/^static bool type_is_ancestor(TypeImpl *type, TypeImpl *target_type)$/;"	f	file:
+type_my_init	./mydevice.c	/^void type_my_init(void)$/;"	f
+type_new	./object.c	/^static TypeImpl *type_new(const TypeInfo *info)$/;"	f	file:
+type_object_get_size	./object.c	/^static size_t type_object_get_size(TypeImpl *ti)$/;"	f	file:
+type_object_init	./object.c	/^void type_object_init(void){$/;"	f
+type_register	./object.c	/^TypeImpl *type_register(const TypeInfo *info)$/;"	f
+type_register_internal	./object.c	/^static TypeImpl *type_register_internal(const TypeInfo *info)$/;"	f	file:
+type_register_static	./object.c	/^TypeImpl *type_register_static(const TypeInfo *info)$/;"	f
+type_register_static_array	./object.c	/^void type_register_static_array(const TypeInfo *infos, int nr_infos)$/;"	f
+type_table_add	./object.c	/^static void type_table_add(TypeImpl *ti)$/;"	f	file:
+type_table_get	./object.c	/^static GHashTable *type_table_get(void)$/;"	f	file:
+type_table_lookup	./object.c	/^static TypeImpl *type_table_lookup(const char *name)$/;"	f	file:
+typename	./object.c	/^    const char *typename;$/;"	m	struct:InterfaceImpl	file:
+unparent	./object.h	/^    ObjectUnparent *unparent;$/;"	m	struct:ObjectClass
+value	./old_hash.c	/^  gpointer   value;$/;"	m	struct:_GHashNode	file:
+value_destroy_func	./ghash.c	/^  GDestroyNotify   value_destroy_func;$/;"	m	struct:_GHashTable	file:
+value_destroy_func	./old_hash.c	/^  GDestroyNotify   value_destroy_func;$/;"	m	struct:_GHashTable	file:
+values	./ghash.c	/^  gpointer        *values;$/;"	m	struct:_GHashTable	file:
+version	./ghash.c	/^  int              version;$/;"	m	struct:_GHashTable	file:
+version	./ghash.c	/^  int          version;$/;"	m	struct:__anon1	file:
+writable_class_init	./mydevice.c	/^static void writable_class_init(ObjectClass *oc, void* data)$/;"	f	file:
+writable_interface_info	./mydevice.c	/^static const TypeInfo writable_interface_info = {$/;"	v	file:

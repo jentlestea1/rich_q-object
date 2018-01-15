@@ -1,0 +1,1 @@
+gcc -E main.c ghash.c gmem.c gtestutil.c gstrfuncs.c gslist.c error.c type_init.c object.c mydevice.c derived1.c derived2.c > a
